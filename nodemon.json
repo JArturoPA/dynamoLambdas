@@ -1,0 +1,12 @@
+{
+    "verbose": true,
+    "ignore": ["node_modules", ".git", "*.test.js", "fixtures/*"],
+    "ext": "js json",
+    "watch": [
+        "api/"
+    ],
+    "execMap": {
+        "js": "node --inspect=0.0.0.0:9229"
+    }
+}
+  
